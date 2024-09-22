@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alphathon"
+authors = [
+    {name = "mojidev-py"},
+]
+description = "Python, except Gen-Alpha-ized."
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["alpha","language","dialect"]
+license = {text = "LICENSE"}
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Typing :: Typed"
+
+]
+version = "0.0.1"
+
+[project.urls]
+github = "https://github.com/mojidev-py/alphathon/tree/main"
+
+[tool.setuptools]
+packages = [
+    "alphathon"
+]

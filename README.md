@@ -1,15 +1,15 @@
-# 🐺athon
+# 🐺
 
-🐺athon is a funny project I am going to make that is basically python, but gen alpha-ized.
+🐺 is a funny project I am going to make that is basically python, but gen alpha-ized.
 
 ## EXAMPLE
 
 ```py
 
-woah = True
+like woah = Capping
 
-if woah capping:
-    like "bro this is cool"
+what if woah was Capping:
+    like say "bro this is cool"
 ```
 
 ## OUTPUT:
