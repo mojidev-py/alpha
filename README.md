@@ -25,4 +25,43 @@ as you can see, it "gen-alpha"izes the output.
 
 *Anyway, let's dive into the deep end.*
 
-*Any keyword that requests, or asks for conditions to be satisfied, will need to have the suffix :wolf:awooo next to it, or the interpeter will raise an error.*
+*How does this language work?*
+Here's a basic diagram showing the steps the interpeter takes to run your program.
+```
+                           --------------
+                          |  Interpeter  |
+                          |    Called    |
+                           --------------
+                        /                   
+                       /                     
+    Does the program have priority keywords?  
+                    /            \                         
+                   /              \              
+                  /                \_____________________________________________             
+        ---------------------------------------------------------------------    \
+       |   Parser is Called Without Lexer, then is recalled for other words  |    \
+        ---------------------------------------------------------------------     /
+                                              -----------                        /
+                                            | Lexer Called |___________________ /
+                                             --------------
+                                                   |
+                                                   |
+                                                   |
+                                                   |
+                                                   |
+                                              -------------- 
+                                             | Parser Called |
+                                              ---------------
+                                                   |
+                                                   |
+                                                   |
+                                                   |
+                                                 Done!
+```
+This is a very basic diagram.
+
+### KEYWORDS
+```s
+self - Used to describe the file that this keyword/function is being called in
+WIP
+```
